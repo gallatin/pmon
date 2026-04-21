@@ -239,6 +239,7 @@ identify_cpu(void)
 			case 0x02:
 			case 0x10:
 			case 0x11:
+			case 0x70: /* Ryzen AI MAX+ 395 (Strix Halo) */
 				break;
 			default:
 				printf("unsupported CPU 0x%x 0x%x\n",
